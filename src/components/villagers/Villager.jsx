@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Villager = ({ name, image, quote, style, coffee }) => (
+const Villager = ({ id, name, image, quote, style, coffee }) => (
   <div className={style}>
     <img src={image} alt={name}  height="200px" />
     <h2>{name}</h2>
@@ -19,6 +19,7 @@ const Villager = ({ name, image, quote, style, coffee }) => (
 export default Villager;
 
 Villager.propTypes = {
+  id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   quote: PropTypes.string.isRequired,

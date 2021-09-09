@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import Villager from './Villager.jsx';
 
@@ -7,13 +8,16 @@ const VillagerList = ({ villagers }) => (
     {villagers.map((villager) => {
       return (
         <li key={villager.id}>
-          <Villager
-            name={villager.name}
-            image={villager.image}
-            quote={villager.quote}
-            style={villager.style}
-            coffee={villager.coffee}
-          />
+          <Link to={`/${villager.name}`}>
+            <Villager
+              id={villager.id}
+              name={villager.name}
+              image={villager.image}
+              quote={villager.quote}
+              style={villager.style}
+              coffee={villager.coffee}
+            />
+          </Link>
         </li>);
     })}
   </ul>
