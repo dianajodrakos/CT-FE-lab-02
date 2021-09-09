@@ -6,7 +6,13 @@ const Villager = ({ name, image, quote, style, coffee }) => (
     <img src={image} alt={name} />
     <h2>{name}</h2>
     <p>&quot;{quote}&quot;</p>
-    <p>Coffee: {`${coffee.roast} with ${coffee.milk} and ${coffee.sugar}.`}</p>
+    <p>
+      Coffee: {`
+      ${coffee.roast} with 
+      ${coffee.milk.toLowerCase()} and 
+      ${coffee.sugar.toLowerCase()}.
+      `}
+    </p>
   </div>
 );
 

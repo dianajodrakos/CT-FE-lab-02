@@ -5,16 +5,16 @@ import Villager from './Villager.jsx';
 const VillagerList = ({ villagers }) => (
   <ul aria-label="villagers">
     {villagers.map((villager) => {
-      <li>
-        <Villager
-          key={villager.id}
-          name={villager.name}
-          image={villager.image}
-          quote={villager.quote}
-          style={villager.style}
-          coffee={villager.coffee}
-        />
-      </li>;
+      return (
+        <li key={villager.id}>
+          <Villager
+            name={villager.name}
+            image={villager.image}
+            quote={villager.quote}
+            style={villager.style}
+            coffee={villager.coffee}
+          />
+        </li>);
     })}
   </ul>
 );
