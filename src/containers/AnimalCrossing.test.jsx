@@ -6,9 +6,9 @@ describe('Animal Crossing Container', () => {
   it('renders a list of villagers', async () => {
     render(<AnimalCrossingContainer />);
 
-    screen.getByAltText('results loading');
+    // screen.getByText('loading...');
 
-    const ul = await screen.findByRole('list', { name: villagers });
+    const ul = await screen.findByRole('list', { name: 'villagers' });
 
     expect(ul).toMatchSnapshot();
     

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Villager = ({ name, image, quote, style, coffee }) => (
   <div className={style}>
-    <img src={image} alt={name} />
+    <img src={image} alt={name}  height="200px" />
     <h2>{name}</h2>
     <p>&quot;{quote}&quot;</p>
     <p>
