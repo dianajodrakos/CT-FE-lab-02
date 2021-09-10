@@ -1,0 +1,783 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Animal Crossing Container renders a list of villagers 1`] = `
+<ul
+  aria-label="villagers"
+>
+  <li>
+    <a
+      href="/Admiral"
+    >
+      <div
+        class="n/a"
+      >
+        <img
+          alt="Admiral"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/Admiral_NH.png/revision/latest?cb=20200802081138"
+        />
+        <h2>
+          Admiral
+        </h2>
+        <p>
+          "
+          Only quitters give up.
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Blue Mountain with 
+      the regular amount of milk and 
+      2 spoonfuls of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Agent S"
+    >
+      <div
+        class="Sporty"
+      >
+        <img
+          alt="Agent S"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/a/a7/Agent_S_NH.png/revision/latest?cb=20200719092526"
+        />
+        <h2>
+          Agent S
+        </h2>
+        <p>
+          "
+          You gotta put the pedal to the metal!
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Mocha with 
+      the regular amount of milk and 
+      two spoonfuls of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Agnes"
+    >
+      <div
+        class="Rock 'n' roll"
+      >
+        <img
+          alt="Agnes"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/4/42/Agnes_NH.png/revision/latest?cb=20200804230432"
+        />
+        <h2>
+          Agnes
+        </h2>
+        <p>
+          "
+          You reap what you sow.
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Kilimanjaro with 
+      lots of milk and 
+      three spoonfuls of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Al"
+    >
+      <div
+        class="Basic"
+      >
+        <img
+          alt="Al"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/c/c4/Al_NH.png/revision/latest?cb=20200802150354"
+        />
+        <h2>
+          Al
+        </h2>
+        <p>
+          "
+          Life is a buffet--Always go back for seconds.
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Mocha with 
+      lots of milk and 
+      three spoonfuls of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Alfonso"
+    >
+      <div
+        class="Basic"
+      >
+        <img
+          alt="Alfonso"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/e/e4/Alfonso_NH.png/revision/latest?cb=20200817164717"
+        />
+        <h2>
+          Alfonso
+        </h2>
+        <p>
+          "
+          Slow and steady wins the race.
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Mocha with 
+      the regular amount of milk and 
+      two spoonfuls of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Alice"
+    >
+      <div
+        class="Cute"
+      >
+        <img
+          alt="Alice"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/e/e1/Alice_NH.png/revision/latest?cb=20200803181400"
+        />
+        <h2>
+          Alice
+        </h2>
+        <p>
+          "
+          Treat others as you would like to be treated.
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Mocha with 
+      no milk and 
+      no sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Ankha"
+    >
+      <div
+        class="Historical"
+      >
+        <img
+          alt="Ankha"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/5/56/Ankha_NH.png/revision/latest?cb=20200817172044"
+        />
+        <h2>
+          Ankha
+        </h2>
+        <p>
+          "
+          All that glitters is not gold.
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Kilimanjaro with 
+      no milk and 
+      no sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Alli"
+    >
+      <div
+        class="Ornate"
+      >
+        <img
+          alt="Alli"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/8/8e/Alli_NH.png/revision/latest?cb=20200802061731"
+        />
+        <h2>
+          Alli
+        </h2>
+        <p>
+          "
+          Think before you act.
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Mocha with 
+      the regular amount of milk and 
+      two spoonfuls of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Anicotti"
+    >
+      <div
+        class="Flashy"
+      >
+        <img
+          alt="Anicotti"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/8/80/Anicotti_NH.png/revision/latest?cb=20200802164003"
+        />
+        <h2>
+          Anicotti
+        </h2>
+        <p>
+          "
+          The walls have ears!
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Mocha with 
+      no milk and 
+      no sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Angus"
+    >
+      <div
+        class="Rock 'n' roll"
+      >
+        <img
+          alt="Angus"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/Angus_NH.png/revision/latest?cb=20200802083758"
+        />
+        <h2>
+          Angus
+        </h2>
+        <p>
+          "
+          Even strong men cry.
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Kilimanjaro with 
+      no milk and 
+      no sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Amelia"
+    >
+      <div
+        class="Ornate"
+      >
+        <img
+          alt="Amelia"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/a/ab/Amelia_NH.png/revision/latest?cb=20200817171545"
+        />
+        <h2>
+          Amelia
+        </h2>
+        <p>
+          "
+          Pampering yourself is as important as food, water, and shelter!
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Blue Mountain with 
+      lots of milk and 
+      three spoonfuls of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Annalisa"
+    >
+      <div
+        class="Iconic"
+      >
+        <img
+          alt="Annalisa"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/f/f0/Annalisa_NH.png/revision/latest?cb=20200802063308"
+        />
+        <h2>
+          Annalisa
+        </h2>
+        <p>
+          "
+          Home is where the heart is.
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Mocha with 
+      the regular amount of milk and 
+      two spoonfuls of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Antonio"
+    >
+      <div
+        class="Basic"
+      >
+        <img
+          alt="Antonio"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/d/d4/Antonio_NH.png/revision/latest?cb=20200802063352"
+        />
+        <h2>
+          Antonio
+        </h2>
+        <p>
+          "
+          Always go for the burn!
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Kilimanjaro with 
+      just a little bit of milk and 
+      one spoonful of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Annalise"
+    >
+      <div
+        class="Official"
+      >
+        <img
+          alt="Annalise"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/c/c4/Annalise_NH.png/revision/latest?cb=20200802153943"
+        />
+        <h2>
+          Annalise
+        </h2>
+        <p>
+          "
+          Let gossip in one ear and out the other.
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Blend with 
+      lots of milk and 
+      three spoonfuls of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Anabelle"
+    >
+      <div
+        class="Cute"
+      >
+        <img
+          alt="Anabelle"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/d/d8/Anabelle_NH.png/revision/latest?cb=20200802063200"
+        />
+        <h2>
+          Anabelle
+        </h2>
+        <p>
+          "
+          Dance like no one's watching!
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Kilimanjaro with 
+      just a little bit of milk and 
+      one spoonful of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Apollo"
+    >
+      <div
+        class="Rock 'n' roll, Cool (PC)"
+      >
+        <img
+          alt="Apollo"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/2/28/Apollo_NH.png/revision/latest?cb=20200719092927"
+        />
+        <h2>
+          Apollo
+        </h2>
+        <p>
+          "
+          What goes up must come down.
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Kilimanjaro with 
+      just a little bit of milk and 
+      one spoonful of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Anchovy"
+    >
+      <div
+        class="Flashy"
+      >
+        <img
+          alt="Anchovy"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/e/ea/Anchovy_NH.png/revision/latest?cb=20200802081231"
+        />
+        <h2>
+          Anchovy
+        </h2>
+        <p>
+          "
+          Why do today what you can put off until tomorrow?
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Blue Mountain with 
+      the regular amount of milk and 
+      two spoonfuls of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Apple"
+    >
+      <div
+        class="Cute"
+      >
+        <img
+          alt="Apple"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/5/57/Apple_NH.png/revision/latest?cb=20200802151508"
+        />
+        <h2>
+          Apple
+        </h2>
+        <p>
+          "
+          One rotten apple spoils the barrel!
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Blend with 
+      the regular amount of milk and 
+      two spoonfuls of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Astrid"
+    >
+      <div
+        class="Rock 'n' roll"
+      >
+        <img
+          alt="Astrid"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/d/d5/Astrid_NH.png/revision/latest?cb=20200802154954"
+        />
+        <h2>
+          Astrid
+        </h2>
+        <p>
+          "
+          An apple doesn't fall far from the tree.
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Blue Mountain with 
+      just a little bit of milk and 
+      one spoonful of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Audie"
+    >
+      <div
+        class="Cute"
+      >
+        <img
+          alt="Audie"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/1/1b/Audie_NH.png/revision/latest?cb=20200829012735"
+        />
+        <h2>
+          Audie
+        </h2>
+        <p>
+          "
+          Be the kind of person your future self won't regret having been
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      n/a with 
+      n/a and 
+      n/a.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Aurora"
+    >
+      <div
+        class="Official"
+      >
+        <img
+          alt="Aurora"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/5/59/Aurora_NH.png/revision/latest?cb=20200202215217"
+        />
+        <h2>
+          Aurora
+        </h2>
+        <p>
+          "
+          Always keep your cool.
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Kilimanjaro with 
+      the regular amount of milk and 
+      two spoonfuls of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Ava"
+    >
+      <div
+        class="Official"
+      >
+        <img
+          alt="Ava"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/c/cc/Ava_NH.png/revision/latest?cb=20200609055741"
+        />
+        <h2>
+          Ava
+        </h2>
+        <p>
+          "
+          Early to bed, early to rise.
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Blue Mountain with 
+      the regular amount of milk and 
+      two spoonfuls of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Avery"
+    >
+      <div
+        class="Iconic"
+      >
+        <img
+          alt="Avery"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/Avery_NH.png/revision/latest?cb=20200608222354"
+        />
+        <h2>
+          Avery
+        </h2>
+        <p>
+          "
+          What goes around comes around.
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Kilimanjaro with 
+      just a little bit of milk and 
+      one spoonful of sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Baabara"
+    >
+      <div
+        class="Ornate"
+      >
+        <img
+          alt="Baabara"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/d/df/Baabara_NH.png/revision/latest?cb=20200802165552"
+        />
+        <h2>
+          Baabara
+        </h2>
+        <p>
+          "
+          Don't just follow the flock.
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Mocha with 
+      no milk and 
+      no sugar.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/Barold"
+    >
+      <div
+        class="Historical"
+      >
+        <img
+          alt="Barold"
+          height="200px"
+          src="https://vignette.wikia.nocookie.net/animalcrossing/images/9/9d/Barold_NH.png/revision/latest?cb=20200802141140"
+        />
+        <h2>
+          Barold
+        </h2>
+        <p>
+          "
+          Please DO feed the bears!
+          "
+        </p>
+        <p>
+          Coffee: 
+          
+      Blue Mountain with 
+      none at all and 
+      none at all.
+      
+        </p>
+      </div>
+    </a>
+  </li>
+</ul>
+`;
