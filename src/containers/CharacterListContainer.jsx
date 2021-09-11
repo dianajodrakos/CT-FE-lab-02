@@ -16,7 +16,8 @@ export default class CharacterListContainer extends Component {
           {
             villagers,
             loading: false 
-          })
+          }
+        )
       );
   }
 

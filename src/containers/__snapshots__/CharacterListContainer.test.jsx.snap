@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Animal Crossing Container renders a list of villagers 1`] = `
+exports[`Animal Crossing Character List Container renders a list of villagers 1`] = `
 <ul
   aria-label="villagers"
 >
