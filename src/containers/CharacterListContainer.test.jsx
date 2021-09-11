@@ -1,12 +1,12 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import AnimalCrossingContainer from './AnimalCrossingContainer';
+import CharacterListContainer from './CharacterListContainer';
 
-describe('Animal Crossing Container', () => {
+describe('Animal Crossing Character List Container', () => {
   it('renders a list of villagers', async () => {
-    render(<AnimalCrossingContainer />);
+    render(<CharacterListContainer />);
 
-    // screen.getByText('loading...');
+    screen.getByText('loading...');
 
     const ul = await screen.findByRole('list', { name: 'villagers' });
 
