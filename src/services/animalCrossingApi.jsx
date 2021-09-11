@@ -14,8 +14,11 @@ export const getVillagers = async () => {
   }));
 };
 
-export const getVillagerById = async (id) => {
-  const res = await fetch(`${url}${id}`);
+export const getVillagerByName = async (name) => {
+  const villagerArray = await getVillagers();
+  const villager = villagerArray.find(villager => villager.name === name);
+
+  const res = await fetch(`${url}${villager.id}`);
   const json = await res.json();
 
   return {
