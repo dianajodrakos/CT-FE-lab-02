@@ -16,7 +16,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/Admiral_NH.png/revision/latest?cb=20200802081138"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Admiral
         </h2>
         <p>
@@ -47,7 +49,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/a/a7/Agent_S_NH.png/revision/latest?cb=20200719092526"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Agent S
         </h2>
         <p>
@@ -78,7 +82,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/4/42/Agnes_NH.png/revision/latest?cb=20200804230432"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Agnes
         </h2>
         <p>
@@ -109,7 +115,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/c/c4/Al_NH.png/revision/latest?cb=20200802150354"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Al
         </h2>
         <p>
@@ -140,7 +148,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/e/e4/Alfonso_NH.png/revision/latest?cb=20200817164717"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Alfonso
         </h2>
         <p>
@@ -171,7 +181,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/e/e1/Alice_NH.png/revision/latest?cb=20200803181400"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Alice
         </h2>
         <p>
@@ -202,7 +214,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/5/56/Ankha_NH.png/revision/latest?cb=20200817172044"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Ankha
         </h2>
         <p>
@@ -233,7 +247,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/8/8e/Alli_NH.png/revision/latest?cb=20200802061731"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Alli
         </h2>
         <p>
@@ -264,7 +280,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/8/80/Anicotti_NH.png/revision/latest?cb=20200802164003"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Anicotti
         </h2>
         <p>
@@ -295,7 +313,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/Angus_NH.png/revision/latest?cb=20200802083758"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Angus
         </h2>
         <p>
@@ -326,7 +346,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/a/ab/Amelia_NH.png/revision/latest?cb=20200817171545"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Amelia
         </h2>
         <p>
@@ -357,7 +379,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/f/f0/Annalisa_NH.png/revision/latest?cb=20200802063308"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Annalisa
         </h2>
         <p>
@@ -388,7 +412,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/d/d4/Antonio_NH.png/revision/latest?cb=20200802063352"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Antonio
         </h2>
         <p>
@@ -419,7 +445,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/c/c4/Annalise_NH.png/revision/latest?cb=20200802153943"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Annalise
         </h2>
         <p>
@@ -450,7 +478,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/d/d8/Anabelle_NH.png/revision/latest?cb=20200802063200"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Anabelle
         </h2>
         <p>
@@ -481,7 +511,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/2/28/Apollo_NH.png/revision/latest?cb=20200719092927"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Apollo
         </h2>
         <p>
@@ -512,7 +544,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/e/ea/Anchovy_NH.png/revision/latest?cb=20200802081231"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Anchovy
         </h2>
         <p>
@@ -543,7 +577,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/5/57/Apple_NH.png/revision/latest?cb=20200802151508"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Apple
         </h2>
         <p>
@@ -574,7 +610,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/d/d5/Astrid_NH.png/revision/latest?cb=20200802154954"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Astrid
         </h2>
         <p>
@@ -605,7 +643,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/1/1b/Audie_NH.png/revision/latest?cb=20200829012735"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Audie
         </h2>
         <p>
@@ -636,7 +676,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/5/59/Aurora_NH.png/revision/latest?cb=20200202215217"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Aurora
         </h2>
         <p>
@@ -667,7 +709,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/c/cc/Ava_NH.png/revision/latest?cb=20200609055741"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Ava
         </h2>
         <p>
@@ -698,7 +742,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/Avery_NH.png/revision/latest?cb=20200608222354"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Avery
         </h2>
         <p>
@@ -729,7 +775,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/d/df/Baabara_NH.png/revision/latest?cb=20200802165552"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Baabara
         </h2>
         <p>
@@ -760,7 +808,9 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
           height="200px"
           src="https://vignette.wikia.nocookie.net/animalcrossing/images/9/9d/Barold_NH.png/revision/latest?cb=20200802141140"
         />
-        <h2>
+        <h2
+          aria-label="heading"
+        >
           Barold
         </h2>
         <p>

@@ -21,6 +21,5 @@ describe('Animal Crossing Character List Container', () => {
     );
 
     expect(ul).toMatchSnapshot();
-    
   });
 });
