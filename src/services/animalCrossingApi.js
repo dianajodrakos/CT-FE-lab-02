@@ -1,4 +1,4 @@
-import { findVillager } from './findVillager';
+import { findVillager } from '../utils/findVillager';
 
 const url = 'https://ac-vill.herokuapp.com/villagers/';
 

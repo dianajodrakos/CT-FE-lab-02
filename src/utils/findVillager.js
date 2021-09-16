@@ -1,4 +1,4 @@
-import { getVillagers } from './animalCrossingApi';
+import { getVillagers } from '../services/animalCrossingApi';
 
 export const findVillager = async (name) => {
   const villagerArray = await getVillagers();
