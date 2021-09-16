@@ -1,41 +1,31 @@
-import React, { Component } from 'react';
+import React, { useEffect, useState } from 'react';
 import { getVillagerByName } from '../services/animalCrossingApi.jsx';
 import Villager from '../components/villagers/Villager.jsx';
 
-export default class CharacterDetailContainer extends Component {
+const CharacterDetailContainer = () => {
+  const [loading, setLoading] = useState(true);
+  const [villager, setVillager] = useState([]);
 
-  state = {
-    loading: true,
-    villager: []
-  };
+  useEffect(() => {
+    getVillagerByName()
+      .then((villager) => setVillager(villager))
+      .finally(() => setLoading(false));
+  }, []);
 
-  componentDidMount() {
-    getVillagerByName(this.props.match.params.name)
-      .then(
-        (villager) => this.setState(
-          {
-            loading: false, 
-            villager
-          })
-      );
-  }
+  if(loading)
+    return <h1>loading...</h1>;
+    
+  return <Villager
+    id={villager.id}
+    name={villager.name}
+    image={villager.image}
+    quote={villager.quote}
+    style={villager.style}
+    coffee={villager.coffee}
+  />;
+};
 
-  render() {
-    const { loading, villager } = this.state;
-
-    if(loading)
-      return <h1>loading...</h1>;
-      
-    return <Villager
-      id={villager.id}
-      name={villager.name}
-      image={villager.image}
-      quote={villager.quote}
-      style={villager.style}
-      coffee={villager.coffee}
-    />;
-  }
-}
+export default CharacterDetailContainer;
 
 
 
