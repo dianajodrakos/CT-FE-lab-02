@@ -10,6 +10,7 @@ export const useVillager = () => {
   useEffect(() => {
     getVillagerByName(name)
       .then((villager) => setVillager(villager))
+      .catch((() => setVillager(null)))
       .finally(() => setLoading(false));
   }, []);
 

@@ -9,7 +9,10 @@ import listData from '../fixtures/listData.json';
 
 const server = setupServer(
   rest.get('https://ac-vill.herokuapp.com/villagers/', (req, res, ctx) => {
-    return res(ctx.json(listData));
+    return res(
+      ctx.status(200),
+      ctx.json(listData)
+    );
   })
 );
 
@@ -30,8 +33,7 @@ describe('Animal Crossing Character List Container', () => {
 
     const ul = await screen.findByRole(
       'list', 
-      { name: 'villagers' }, 
-      { timeout: 5000 }
+      { name: 'villagers' },
     );
 
     expect(ul).toMatchSnapshot();

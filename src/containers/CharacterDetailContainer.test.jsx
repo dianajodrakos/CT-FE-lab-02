@@ -1,8 +1,20 @@
 import React from 'react';
 import { Router, Route } from 'react-router-dom';
 import { render, screen } from '@testing-library/react';
+import { rest } from 'msw';
+import { setupServer } from 'msw/node';
 import { createMemoryHistory } from 'history';
 import CharacterDetailContainer from './CharacterDetailContainer.jsx';
+import detailData from '../fixtures/detailData.json';
+
+const server = setupServer(
+  rest.get('https://ac-vill.herokuapp.com/villagers/:name', (req, res, ctx) => {
+    return res(
+      ctx.status(200),
+      ctx.json(detailData)
+    );
+  })
+);
 
 function renderWithRouter(
   ui,
@@ -22,6 +34,9 @@ function renderWithRouter(
 }
 
 describe('Animal Crossing Character Detail Container', () => {
+  beforeAll(() => server.listen());
+  afterAll(() => server.close());
+
   it('renders a single villager', async () => {
     renderWithRouter(CharacterDetailContainer, 
       {

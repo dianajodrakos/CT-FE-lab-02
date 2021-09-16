@@ -9,6 +9,7 @@ export const useVillagers = () => {
   useEffect(() => {
     getVillagers()
       .then((villagers) => setVillagers(villagers))
+      .catch(() => setVillagers([]))
       .finally(() => setLoading(false));
   }, []);
 
