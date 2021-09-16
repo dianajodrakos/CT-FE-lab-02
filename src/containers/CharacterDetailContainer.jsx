@@ -1,16 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { getVillagerByName } from '../services/animalCrossingApi.jsx';
+import React from 'react';
 import Villager from '../components/villagers/Villager.jsx';
+import { useVillager } from '../hooks/useVillager.js';
 
 const CharacterDetailContainer = () => {
-  const [loading, setLoading] = useState(true);
-  const [villager, setVillager] = useState([]);
-
-  useEffect(() => {
-    getVillagerByName()
-      .then((villager) => setVillager(villager))
-      .finally(() => setLoading(false));
-  }, []);
+  const { loading, villager } = useVillager();
 
   if(loading)
     return <h1>loading...</h1>;
