@@ -1,0 +1,26 @@
+{
+  "_id": "5f5fb4bbbfd05c2aed82e462",
+  "url": "https://animalcrossing.fandom.com/wiki/Agnes",
+  "name": "Agnes",
+  "japaneseName": "アグネス Agunesu",
+  "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/42/Agnes_NH.png/revision/latest?cb=20200804230432",
+  "quote": "You reap what you sow.",
+  "gender": "female",
+  "personality": "sisterly",
+  "species": "pig",
+  "birthday": "April 21st (Taurus)",
+  "phrase": "snuffle",
+  "skill": "Cramming for tests",
+  "goal": "Pro Golfer",
+  "coffee": {
+    "roast": "Kilimanjaro",
+    "milk": "Lots of milk",
+    "sugar": "Three spoonfuls of sugar"
+  },
+  "song": {
+    "name": "K.K. House",
+    "link": "https://animalcrossing.fandom.com/wiki/K.K._House"
+  },
+  "style": "Rock 'n' roll",
+  "__v": 0
+}

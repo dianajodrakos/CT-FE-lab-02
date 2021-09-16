@@ -1,3 +1,5 @@
+import { findVillager } from './findVillager';
+
 const url = 'https://ac-vill.herokuapp.com/villagers/';
 
 export const getVillagers = async () => {
@@ -15,10 +17,9 @@ export const getVillagers = async () => {
 };
 
 export const getVillagerByName = async (name) => {
-  const villagerArray = await getVillagers();
-  const villager = villagerArray.find(villager => villager.name === name);
+  const id = await findVillager(name);
 
-  const res = await fetch(`${url}${villager.id}`);
+  const res = await fetch(`${url}${id}`);
   const json = await res.json();
 
   return {
