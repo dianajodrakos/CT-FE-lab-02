@@ -1,11 +1,11 @@
 import { findVillager } from '../utils/findVillager';
 
-const url = 'https://ac-vill.herokuapp.com/villagers/';
+const url = 'https://ac-vill.herokuapp.com/villagers';
 
-export const getVillagers = async () => {
-  const res = await fetch(url);
+export const getVillagers = async (currentPage) => {
+  const res = await fetch(`${url}?page=${currentPage}`);
   const json = await res.json();
-  
+
   return json.map((villager) => ({
     id: villager._id,
     name: villager.name,
@@ -19,7 +19,7 @@ export const getVillagers = async () => {
 export const getVillagerByName = async (name) => {
   const id = await findVillager(name);
 
-  const res = await fetch(`${url}${id}`);
+  const res = await fetch(`${url}/${id}`);
   const json = await res.json();
 
   return {

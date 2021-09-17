@@ -1,19 +1,23 @@
+/* eslint-disable max-len */
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from 'react-router-dom';
+import { Route,  Switch } from 'react-router-dom';
+import Header from '../header/Header';
 import CharacterListContainer from '../../containers/CharacterListContainer';
 import CharacterDetailContainer from '../../containers/CharacterDetailContainer';
 
 export default function App() {
   return ( 
-    <Router>
+    <>
+      <Header />
       <Switch>
-        <Route exact path="/" component={CharacterListContainer} />
-        <Route exact path="/:name" component={CharacterDetailContainer} />
+        <Route exact path="/">
+          <CharacterListContainer />
+        </Route>
+        <Route exact path="/:name">
+          <CharacterDetailContainer />
+        </Route>
       </Switch>
-    </Router>);
+    </>
+  );
 }
 

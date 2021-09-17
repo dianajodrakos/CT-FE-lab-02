@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Animal Crossing Character Detail Container renders a single villager 1`] = `
-<h1>
-  loading...
-</h1>
-`;

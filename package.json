@@ -2,7 +2,7 @@
   "name": "CT-FE-lab-02",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/index.jsx",
   "jest": {
     "setupFilesAfterEnv": [
       "@testing-library/jest-dom/extend-expect",
