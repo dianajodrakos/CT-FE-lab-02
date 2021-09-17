@@ -69,14 +69,14 @@ describe('Animal Crossing App', () => {
     
     const nextPageButton = screen.getByRole(
       'button',
-      { name: 'next page' }
+      { name: 'next-page' }
     );
 
     act(() => {
       fireEvent.click(nextPageButton);
     });
 
-    const characterFromPageTwo = await screen.findAllByText('Bangle');
+    const characterFromPageTwo = await screen.findByText('Bangle');
     expect(characterFromPageTwo).toBeInTheDocument();
 
   });

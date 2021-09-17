@@ -2,29 +2,25 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import Villager from './Villager';
-import VillagerControls from './VillagerControls';
 
 const VillagerList = ({ villagers }) => (
-  <>
-    <VillagerControls />
-    <ul aria-label="villagers">
-      {villagers.map((villager) => {
-        return (
-          <li key={villager.id}>
-            <Link to={`/${villager.name}`}>
-              <Villager
-                id={villager.id}
-                name={villager.name}
-                image={villager.image}
-                quote={villager.quote}
-                style={villager.style}
-                coffee={villager.coffee}
-              />
-            </Link>
-          </li>);
-      })}
-    </ul>
-  </>
+  <ul aria-label="villagers">
+    {villagers.map((villager) => {
+      return (
+        <li key={villager.id}>
+          <Link to={`/${villager.name}`}>
+            <Villager
+              id={villager.id}
+              name={villager.name}
+              image={villager.image}
+              quote={villager.quote}
+              style={villager.style}
+              coffee={villager.coffee}
+            />
+          </Link>
+        </li>);
+    })}
+  </ul>
 );
 
 VillagerList.propTypes = {
