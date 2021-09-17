@@ -1,7 +1,7 @@
 import React from 'react';
-import { useVillagers } from '../hooks/useVillagers.js';
-import VillagerList from '../components/villagers/VillagerList.jsx';
 import Loading from '../components/loading/Loading.jsx';
+import VillagerList from '../components/villagers/VillagerList.jsx';
+import { useVillagers } from '../hooks/useVillagers.js';
 
 const CharacterListContainer = () => {
   const { loading, villagers } = useVillagers();
