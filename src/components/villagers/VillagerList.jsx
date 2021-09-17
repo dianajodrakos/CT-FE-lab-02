@@ -2,14 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import Villager from './Villager';
+import VillagerControls from './VillagerControls';
 
 const VillagerList = ({ villagers }) => (
   <>
-    <nav>
-      <button aria-label='prev-page'>&lt;</button>
-      <p>page</p>
-      <button aria-label='next-page'>&gt;</button>
-    </nav>
+    <VillagerControls />
     <ul aria-label="villagers">
       {villagers.map((villager) => {
         return (

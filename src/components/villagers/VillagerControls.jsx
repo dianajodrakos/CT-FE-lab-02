@@ -5,7 +5,7 @@ export default function VillagerControls({ currentPage, totalPages }) {
   return (
     <nav>
       <button aria-label="prev-page">&lt;</button>
-      <p>page {currentPage} of {totalPages} </p>
+      <span> page {currentPage} of {totalPages} </span>
       <button aria-label="next-page">&gt;</button>
     </nav>
   );
