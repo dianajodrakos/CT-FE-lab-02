@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Animal Crossing Character List Container renders a list of villagers 1`] = `
+exports[`Animal Crossing App renders a list of villagers 1`] = `
 <ul
   aria-label="villagers"
 >
@@ -830,6 +830,12 @@ exports[`Animal Crossing Character List Container renders a list of villagers 1`
     </a>
   </li>
 </ul>
+`;
+
+exports[`Animal Crossing App renders a single villager 1`] = `
+<h1>
+  Animal Crossing Villagers
+</h1>
 `;
 
 exports[`App component renders App 1`] = `
