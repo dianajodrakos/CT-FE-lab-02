@@ -2,8 +2,21 @@
 
 exports[`App component renders App 1`] = `
 <DocumentFragment>
-  <h1>
-    loading...
-  </h1>
+  <div>
+    <a
+      href="/"
+    >
+      <h1>
+        Animal Crossing Villagers
+      </h1>
+    </a>
+  </div>
+  <div>
+    <img
+      alt="loading"
+      height="250px"
+      src="https://furrycdn.org/img/view/2020/11/19/48649.gif"
+    />
+  </div>
 </DocumentFragment>
 `;

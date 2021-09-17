@@ -45,7 +45,7 @@ describe('Animal Crossing Character Detail Container', () => {
       }
     );
 
-    screen.getByText('loading...');
+    screen.getByAltText('loading');
 
     const h2 = await screen.findByRole('heading');
 

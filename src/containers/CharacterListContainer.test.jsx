@@ -29,7 +29,7 @@ describe('Animal Crossing Character List Container', () => {
       );
     });
     
-    screen.getByText('loading...');
+    screen.getByAltText('loading');
 
     const ul = await screen.findByRole(
       'list', 

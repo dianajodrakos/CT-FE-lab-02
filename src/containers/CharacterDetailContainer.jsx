@@ -1,12 +1,13 @@
 import React from 'react';
 import Villager from '../components/villagers/Villager.jsx';
 import { useVillager } from '../hooks/useVillager';
+import Loading from '../components/loading/Loading.jsx';
 
 const CharacterDetailContainer = () => {
   const { loading, villager } = useVillager();
 
   if(loading)
-    return <h1>loading...</h1>;
+    return <Loading />;
     
   return <Villager
     id={villager.id}

@@ -5,12 +5,12 @@ import { getVillagerByName } from '../services/animalCrossingApi';
 export const useVillager = () => {
   const { name } = useParams();
   const [loading, setLoading] = useState(true);
-  const [villager, setVillager] = useState(null);
+  const [villager, setVillager] = useState({});
 
   useEffect(() => {
     getVillagerByName(name)
       .then((villager) => setVillager(villager))
-      .catch((() => setVillager(null)))
+      .catch((() => setVillager({})))
       .finally(() => setLoading(false));
   }, []);
 
