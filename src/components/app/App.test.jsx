@@ -1,19 +1,26 @@
 /* eslint-disable max-len */
 import React from 'react';
-import { render, screen, cleanup } from '@testing-library/react';
+import { cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 import { act } from 'react-dom/test-utils';
 import { MemoryRouter } from 'react-router';
-import listData from '../../fixtures/listData.json';
+import listPageOne from '../../fixtures/listPage1.json';
+import listPageTwo from '../../fixtures/listPage2.json';
 import detailData from '../../fixtures/detailData.json';
 import App from './App';
 
 const server = setupServer(
   rest.get('https://ac-vill.herokuapp.com/villagers/', (req, res, ctx) => {
+    const page = req.url.searchParams.get('page');
+    let response;
+
+    if(page === '1') response = listPageOne;
+    else if(page === '2') response = listPageTwo;
+
     return res(
       ctx.status(200),
-      ctx.json(listData)
+      ctx.json(response)
     );
   }),
   rest.get('https://ac-vill.herokuapp.com/villagers/5f5fb4bbbfd05c2aed82e462', (req, res, ctx) => {
@@ -40,7 +47,7 @@ describe('Animal Crossing App', () => {
   beforeAll(() => server.listen());
   afterAll(() => server.close());
 
-  it('renders a list of villagers', async () => {
+  it('renders a list of villagers with pagination', async () => {
     act(() => {
       render(
         <MemoryRouter>
@@ -55,8 +62,23 @@ describe('Animal Crossing App', () => {
       'list',
       { name: 'villagers' },
     );
-
     expect(ul).toMatchSnapshot();
+
+    const characterFromPageOne = await screen.findByText('Agnes');
+    expect(characterFromPageOne).toBeInTheDocument();
+    
+    const nextPageButton = screen.getByRole(
+      'button',
+      { name: 'next page' }
+    );
+
+    act(() => {
+      fireEvent.click(nextPageButton);
+    });
+
+    const characterFromPageTwo = await screen.findAllByText('Bangle');
+    expect(characterFromPageTwo).toBeInTheDocument();
+
   });
 
   it('renders a single villager', async () => {
